@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--BOOTSTRAP!-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"></link>
+    <!--CSS!-->
+    <link rel="stylesheet" href="main.css"></link>
+    <title>JT INDUMENTARIA</title>
+</head>
+<body>
+    <header>
+        <h1 class="h6 container-fluid text-center bg-dark bg-gradient text-white">INDUMENTARIA FEMENINA</h1>
+        <section class="row logoNav">
+            <img src="imagenes/logojt.png" alt="logo" class="col-2 img-fluid"></img>
+            <nav class="col my-auto text-center">
+                <a href="./index.html">INICIO</a>
+                <a>PRENDAS</a>
+                <a>TABLA DE TALLES</a>
+                <a>PREGUNTAS FRECUENTES</a>
+                <a>CONTACTO</a>
+            </nav>
+        </section>
+    </header>
+    <div class="zonaOfertas pt-3">
+        <img src="./imagenes/ofertas.jpg" alt="ofertas"></img>
+    </div>
+    <div class="cuerpo">
+        <main id="items"></main>
+        <aside>
+            <h2>Carrito de compras</h2>
+            <ul id="carrito"></ul>
+            <p id="carritoTotal">Total: &dollar; <span id="total"></span></p>
+            <button id="botonVaciar">Vaciar</button>
+        </aside>                                                                                                                    
+    </div>
+    <footer>
+        <h2>
+            Encontranos en
+        </h2>
+            <ul>
+                <li>
+                    <img src="./imagenes/instagram.png" width="3%" alt="instagram"></img>
+                    <a href="https://instagram.com/jt._indumentaria?utm_medium=copy_link" target="_blank">Instagram</a>
+                </li>
+                <li>
+                    <img src="./imagenes/wsp.png" width="2.5%" alt="whatsapp"></img>
+                    <a href="https://wa.me/c/5493513062293" target="_blank">Tienda Whatsapp</a>
+                </li>
+            </ul>
+    </footer>
+    <!--SWEET ALERT!-->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!--BOOTSTRAP!-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <!--JS!-->
+    <script src="./JS/producto.js"></script>
+    <script src="./JS/carrito.js"></script>
+</body>
+</html>

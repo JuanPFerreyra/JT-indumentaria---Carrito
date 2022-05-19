@@ -1,0 +1,114 @@
+a{
+    color:grey;
+    text-decoration: none;
+    padding: 1%;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logoNav nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 60%;
+}
+
+main{
+    background-image: url(https://i.pinimg.com/originals/e7/c3/2a/e7c32af39ea9cef9af48b7473e6ec2db.jpg);
+    background-repeat:cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+    display:grid;
+    grid-template-columns:1fr;
+    background-color: black;
+    color: whitesmoke;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer li{
+    list-style: none;
+}
+
+@media only screen and (min-width:780px) {
+    .logoNav a{
+        font-size: 18px;
+    }
+
+    .logoNav img{
+        width: auto;
+    }
+
+    footer ul li img{
+        width: 1.6%;
+    }
+
+    main p{
+        font-size: 18px;
+    }
+
+}
+
+.zonaOfertas {
+    background-color: black;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.cuerpo {
+    display: flex;
+    flex-direction: column; 
+}
+  
+.cuerpoProductos {
+    display: flex;
+    flex-flow: column wrap;
+    margin-left: 1.15rem;
+    margin-top: 2rem; 
+}
+  
+.fotos {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    align-self: center; 
+}
+
+#items {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    margin: 2%;
+    height: 30%; 
+}  
+
+.tituloProducto {
+    font-size: 1rem;
+    text-align: center; 
+}
+
+.precio {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 6%;
+    font-weight: 600; 
+}
+
+aside {
+    align-self: center;
+    margin-bottom: 3%; 
+}
+
+.btnComprar, #botonVaciar, .btnX {
+    background-color: #131212;
+    color: white;
+    font-weight: 600;
+    align-self: center; }
+
