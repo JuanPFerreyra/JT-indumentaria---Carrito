@@ -3,7 +3,7 @@
         "id": 1,
         "nombre": "Babucha Milan",
         "precio": 822,
-        "imagen": "./imagenes/oferta1.jpg"
+        "imagen": "./imagenes/oferta1.JPG"
     },
     {
         "id": 2,
@@ -15,31 +15,31 @@
         "id": 3,
         "nombre": "Mini Cruzada Lino",
         "precio": 763,
-        "imagen": "./imagenes/oferta3.jpg"
+        "imagen": "./imagenes/oferta3.JPG"
     },
     {
         "id": 4,
         "nombre": "Musculosa Andy",
         "precio": 470,
-        "imagen": "./imagenes/oferta4.jpg"
+        "imagen": "./imagenes/oferta4.JPG"
     },
     {
         "id": 5,
         "nombre": "Musculosa Lino Andy",
         "precio": 470,
-        "imagen": "./imagenes/oferta5.jpg"
+        "imagen": "./imagenes/oferta5.JPG"
     },
     {
         "id": 6,
         "nombre": "Palazzo Chicago",
         "precio": 1057,
-        "imagen": "./imagenes/oferta6.jpg"
+        "imagen": "./imagenes/oferta6.JPG"
     },
     {
         "id": 7,
         "nombre": "Vestido Clasico Alex",
         "precio": 940,
-        "imagen": "./imagenes/oferta7.jpg"
+        "imagen": "./imagenes/oferta7.JPG"
     },
     {
         "id": 8,
@@ -57,18 +57,18 @@
         "id": 10,
         "nombre": "Top Atar Popis",
         "precio": 1900,
-        "imagen": "./imagenes/oferta10.jpg"
+        "imagen": "./imagenes/oferta10.JPG"
     },
     {
         "id": 11,
         "nombre": "Vestido Volado Bretel",
         "precio": 2000,
-        "imagen": "./imagenes/oferta11.jpg"
+        "imagen": "./imagenes/oferta11.JPG"
     },
     {
         "id": 12,
         "nombre": "Calza Microfibra Cata",
         "precio": 150,
-        "imagen": "./imagenes/oferta12.jpg"
+        "imagen": "./imagenes/oferta12.JPG"
     }
 ]
